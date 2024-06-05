@@ -16,20 +16,20 @@ RStudio 2024.04.1 Build 748 or higher
 To use DIANN_MaxQ_process.rmd,
 
 For DIA-NN analysis, folder must contain :
-    - report.pg_matrix.tsv.txt,
-    - report.log.txt,
-    - report.pr_matrix.tsv,
-    - report.tsv
+- report.pg_matrix.tsv.txt,
+- report.log.txt,
+- report.pr_matrix.tsv,
+- report.tsv
 	(the Script is done for .d DIA files from Bruker)
 	(.d names files must not contain spaces, or "-" or ".")
 	(In the spectral library, the contaminant proteins' accessions should be preceded by "Conta_" to be detected as Contaminant)
 	(export from DIANN must be called "report.tsv")
 	
 For Maxquant analysis, folder must contain :
-    - proteinGroups.txt,
-    - mqpar.xml,
-    - evidence.txt,
-    - #runningTimes.txt (found in "combined/proc/" folder)
+- proteinGroups.txt,
+- mqpar.xml,
+- evidence.txt,
+- #runningTimes.txt (found in "combined/proc/" folder)
 
 
 
