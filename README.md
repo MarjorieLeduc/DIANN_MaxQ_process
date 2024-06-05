@@ -20,6 +20,7 @@ For DIA-NN analysis, folder must contain :
 - report.log.txt
 - report.pr_matrix.tsv
 - report.tsv
+
 (the Script is done for .d DIA files from Bruker)
 (.d names files must not contain spaces, or "-" or ".")
 (In the spectral library, the contaminant proteins' accessions should be preceded by "Conta_" to be detected as Contaminant)
