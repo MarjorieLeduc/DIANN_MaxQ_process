@@ -22,8 +22,11 @@ For DIA-NN analysis, folder must contain :
 - report.tsv
 
 (the Script is done for .d DIA files from Bruker)
+
 (.d names files must not contain spaces, or "-" or ".")
+
 (In the spectral library, the contaminant proteins' accessions should be preceded by "Conta_" to be detected as Contaminant)
+
 (export from DIANN must be called "report.tsv")
 	
 For Maxquant analysis, folder must contain :
