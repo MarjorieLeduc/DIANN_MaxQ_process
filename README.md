@@ -33,6 +33,7 @@ For Maxquant analysis, folder must contain :
 - proteinGroups.txt
 - mqpar.xml
 - evidence.txt
+- peptides.txt
 - #runningTimes.txt (found in "combined/proc/" folder)
 
 
