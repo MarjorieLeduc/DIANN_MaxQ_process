@@ -4,7 +4,7 @@ output:
   word_document: 
     toc_depth: 3
     toc: no
-    reference_docx: "H:/systemes/R script/Fiche_CompteRendu_LFQ_v5.docx"
+    reference_docx: ""
 ---
 
 ```{r setup, include=F,warning=FALSE}
