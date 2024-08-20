@@ -136,7 +136,7 @@ if(MySoft=="MaxQ"){
   
 }else{
   if(length(which(colnames(df)=="Protein.Ids"))==0){
-    df<-df[,c(1,1,2:(ncol(df)-1))]
+    df<-df[,c(1,1,2:ncol(df))]
     colnames(df)[2]<-"Protein.Ids"
   }
   df$Potential.contaminant<-str_detect(df$Protein.Group,"Conta_")
